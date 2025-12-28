@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Keranjang Belanja - Analisis Algoritma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Keranjang Belanja</h1>
+    <p>Analisis Kompleksitas Algoritma Iteratif vs Rekursif</p>
+</header>
+
+<main class="container">
+    <section class="card">
+        <h2>Manajemen Produk</h2>
+        <div class="form">
+            <input id="nama" placeholder="Nama Produk">
+            <input id="harga" type="number" placeholder="Harga">
+            <input id="qty" type="number" placeholder="Jumlah">
+            <button onclick="submit()" id="btn">Tambah</button>
+            <button class="secondary" onclick="resetForm()">Batal</button>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Daftar Produk</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Produk</th>
+                    <th>Harga</th>
+                    <th>Jumlah (n)</th>
+                    <th>Subtotal</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="table"></tbody>
+        </table>
+    </section>
+
+    <section class="result">
+        <div class="box blue">
+            <h3>Iteratif</h3>
+            <p>Total: <b id="totalI">0</b></p>
+            <p>Waktu: <b id="timeI">0</b> ms</p>
+        </div>
+        <div class="box red">
+            <h3>Rekursif</h3>
+            <p>Total: <b id="totalR">0</b></p>
+            <p>Waktu: <b id="timeR">0</b> ms</p>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Grafik Running Time</h2>
+        <canvas id="chart"></canvas>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
