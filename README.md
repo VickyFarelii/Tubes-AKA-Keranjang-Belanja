@@ -7,7 +7,7 @@ Aplikasi berbasis web sederhana untuk menganalisis dan membandingkan efisiensi a
 * [Vicky Fareli] - [103012400414]
 * [Muh Akmal Okhi Ananta] - [103012400408]
 
-![Banner Aplikasi](Screenshot 2025-12-29 192303.png)
+![Banner Aplikasi](./Screenshot%202025-12-29%20192303.png)
 
 ## 📝 Studi Kasus
 Studi kasus yang dipilih adalah **Kalkulasi Akumulatif Keranjang Belanja**. Permasalahan ini dipilih karena merupakan implementasi nyata dari pengolahan data linear. Algoritma difokuskan pada penjumlahan harga produk sebanyak `n` kali (kuantitas) untuk melihat bagaimana sistem menangani beban kerja yang meningkat.
