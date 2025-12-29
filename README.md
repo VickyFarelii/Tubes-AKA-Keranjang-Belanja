@@ -26,7 +26,12 @@ Menggunakan pemanggilan fungsi diri sendiri hingga mencapai *base case* ($n=0$).
 * **Karakteristik**: Memerlukan alokasi tumpukan memori (*stack*) untuk setiap pemanggilan fungsi.
 
 ## 📊 Analisis Efisiensi (Running Time)
-Berdasarkan hasil pengujian yang dilakukan melalui aplikasi, diperoleh kesimpulan sebagai berikut:
+
+![Grafik Analisis](./DaftarProduk.png)
+
+![Grafik Analisis](./grafik.png)
+
+Berdasarkan hasil pengujian yang dilakukan melalui web, diperoleh kesimpulan sebagai berikut:
 * **Ukuran Masukan (n)**: Pengujian dilakukan mulai dari $n=1$ hingga $n=5000$.
 * **Hasil**: Meskipun keduanya berada dalam kelas $O(n)$, algoritma **Iteratif** secara konsisten memiliki *running time* yang lebih cepat.
 * **Observasi**: Algoritma **Rekursif** menunjukkan kenaikan waktu yang lebih tajam seiring membesarnya nilai $n$ karena adanya *overhead* dari manajemen *call stack* di browser. Pada input yang sangat besar, pendekatan rekursif berisiko menyebabkan *Stack Overflow*.
