@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #eef2f7; /* Background Polos */
+    background: #eef2f7;
     color: #333;
 }
 
@@ -19,7 +19,7 @@ header {
 }
 
 .card {
-    background: white; /* Putih Solid */
+    background: white;
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 12px;
@@ -63,7 +63,7 @@ td {
 }
 
 tr:nth-child(even) {
-    background: #f8fafc; /* Warna selang-seling solid */
+    background: #f8fafc;
 }
 
 .result {
@@ -73,7 +73,7 @@ tr:nth-child(even) {
 
 .box {
     flex: 1;
-    background: white; /* Putih Solid */
+    background: white;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,.1);
