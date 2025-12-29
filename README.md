@@ -4,8 +4,8 @@
 Aplikasi berbasis web sederhana untuk menganalisis dan membandingkan efisiensi algoritma **Iteratif** dan **Rekursif** dalam menghitung akumulasi total harga pada keranjang belanja.
 
 ## 👥 Anggota Kelompok
-* [Vicky Fareli] - [103012400414]
-* [Muh Akmal Okhi Ananta] - [103012400408]
+* Vicky Fareli - 103012400414
+* Muh Akmal Okhi Ananta - 103012400408
 
 ![Banner Aplikasi](./tampilan.png)
 
